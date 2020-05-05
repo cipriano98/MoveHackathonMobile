@@ -30,7 +30,7 @@ function Main({ navigation }) {
             }
 
         });
-        console.log(response.data.personals);
+        console.log("response →", response.data);
         setPersonals(response.data.personals);
     }
 
